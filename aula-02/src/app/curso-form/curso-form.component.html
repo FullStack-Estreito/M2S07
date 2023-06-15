@@ -1,0 +1,20 @@
+<p class="heading">Cadastrar um novo curso</p>
+<form (ngSubmit)="onSubmit()">
+    <div>
+        <label for="nomeCurso">Nome do curso</label>
+        <input type="text" id="nomeCurso">
+    </div>
+    <div>
+        <label for="emailCoordenador">Email do professor coordenador</label>
+        <input type="email" id="emailCoordenador">
+    </div>
+    <div>
+        <label for="categoriaCurso">Categoria do curso</label>
+        <select id="categoriaCurso">
+            <option value="graduacao">Graduação</option>
+            <option value="mestrado">Mestrado</option>
+            <option value="doutorado">Doutorado</option>
+        </select>
+    </div>
+    <button type="submit" class="submit-button">Cadastrar</button>
+</form>
