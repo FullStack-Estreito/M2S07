@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AlunoFormComponent } from './aluno-form/aluno-form.component';
 import { CursoFormComponent } from './curso-form/curso-form.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProdutoFormComponent } from './produto-form/produto-form.component';
 
 @NgModule({
@@ -18,7 +18,8 @@ import { ProdutoFormComponent } from './produto-form/produto-form.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
